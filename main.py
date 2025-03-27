@@ -13,7 +13,7 @@ def testBinaryFind():
     number=array[numberIndex]
     array.sort()
     print(binaryFind(number,array), number)
-  seconds1=time.time()
-  return(seconds1-startSeconds)
+  finalSeconds=time.time()
+  return(finalSeconds-startSeconds)
     
 print(testBinaryFind()) 
